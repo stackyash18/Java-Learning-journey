@@ -12,6 +12,7 @@ class Parent {
   {
    child()
    {
+    
     super(10); 
     System.out.println("I'm the child constructor.");
    }
