@@ -12,13 +12,13 @@ public class CirclleUsingPrivateFunc {
 
     public void setRadius(double r) {
         radius = r;
-        calculateArea();          
-        calculateCircumference(); 
+        calculateArea();
+        calculateCircumference();
     }
 
     private void calculateArea() {
         area = Math.PI * radius * radius;
-    }    
+    }
 
     private void calculateCircumference() {
         circumference = 2 * Math.PI * radius;
