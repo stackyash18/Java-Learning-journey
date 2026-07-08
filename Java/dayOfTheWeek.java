@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class dayOfTheWeek {
-   public static void main(String[] args) {
+  public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter the Day number");
     int day = input.nextInt();
@@ -17,5 +17,5 @@ public class dayOfTheWeek {
       default -> System.out.println("Invalid Day Number");
     }
     input.close();
-   }
+  }
 }
