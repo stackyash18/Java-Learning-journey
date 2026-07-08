@@ -1,10 +1,10 @@
 package com.yash.shape;
 
-abstract class Shape
-{
-  abstract double calculateArea();
+abstract class Shape {
+    abstract double calculateArea();
 
 }
+
 // Base class
 class Circle extends Shape {
     private double radius;
@@ -14,14 +14,11 @@ class Circle extends Shape {
     }
 
     public void setRadius(double radius) {
-      if(radius>=0)
-      {  
-        this.radius = radius;
-      }
-      else
-      {
-        System.out.println(" Radius cannot be Negative. ");
-      }
+        if (radius >= 0) {
+            this.radius = radius;
+        } else {
+            System.out.println(" Radius cannot be Negative. ");
+        }
     }
 
     public double calculateArea() {
@@ -47,25 +44,19 @@ class Rectangle extends Shape {
     }
 
     public void setLength(int length) {
-      if(length>=0)
-      {
-        this.length = length;
-      }
-      else
-      {
-        System.out.println("Length cannot be Negative.");
-      }
+        if (length >= 0) {
+            this.length = length;
+        } else {
+            System.out.println("Length cannot be Negative.");
+        }
     }
 
     public void setBreadth(int breadth) {
-      if(breadth>=0)
-      {
-        this.breadth = breadth;
-      }
-      else
-      {
-        System.out.println("Breadth caannot be Negative.");
-      }
+        if (breadth >= 0) {
+            this.breadth = breadth;
+        } else {
+            System.out.println("Breadth caannot be Negative.");
+        }
     }
 
     public double calculateArea() {
@@ -90,14 +81,11 @@ class Square extends Rectangle {
     }
 
     public void setSide(int side) {
-      if(side>=0)
-      {
-        this.side = side;
-      }
-      else
-      {
-        System.out.println("Side cannot be Negative.");
-      }
+        if (side >= 0) {
+            this.side = side;
+        } else {
+            System.out.println("Side cannot be Negative.");
+        }
     }
 
     public double calculateArea() {
@@ -122,14 +110,11 @@ class Cylinder extends Circle {
     }
 
     public void setHeight(double height) {
-      if(height>=0)
-      {
-        this.height = height;
-      }
-      else
-      {
-      System.out.println("Height cannot be Negative.");
-      }
+        if (height >= 0) {
+            this.height = height;
+        } else {
+            System.out.println("Height cannot be Negative.");
+        }
     }
 
     public double calculateVolume() {
@@ -145,7 +130,6 @@ class Cylinder extends Circle {
     }
 }
 
-
 class Sphere extends Circle {
 
     public double calculateSurfaceArea() {
@@ -156,7 +140,6 @@ class Sphere extends Circle {
         return (4.0 / 3.0) * Math.PI * Math.pow(getRadius(), 3);
     }
 }
-
 
 public class CustomPackage {
     public static void main(String[] args) {
