@@ -7,8 +7,7 @@ public class ToFIndThenFactorial {
     int num = input.nextInt();
 
     int Factorial = 1;
-    for(int i =1; i <= num; i++)
-    {
+    for (int i = 1; i <= num; i++) {
       Factorial = Factorial * i;
     }
     System.out.println("The Factorial of " + num + " is: " + Factorial);
