@@ -1,20 +1,20 @@
 import java.util.Scanner;
+
 public class SquareClass {
-  static class Square
-  {
+  static class Square {
     int side;
-    public int area()
-    {
+
+    public int area() {
       return side * side;
     }
-    public int perimeter()
-    {
+
+    public int perimeter() {
       return 4 * side;
     }
 
-  } 
-  public static void main(String[] args)
-  {
+  }
+
+  public static void main(String[] args) {
     Square Sq1 = new Square();
     System.out.print("Enter the length of the side of square: ");
     Scanner sc = new Scanner(System.in);
