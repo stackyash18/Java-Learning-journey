@@ -1,8 +1,7 @@
 package DSA.Patterns;
 
 public class Sample {
-  public static void main(String args[])
-  {
+    public static void main(String args[]) {
 
         int rows = 3;
         int cols = 7; // total width
@@ -31,6 +30,6 @@ public class Sample {
             }
             System.out.println();
         }
-  }
-  
+    }
+
 }
