@@ -1,9 +1,9 @@
 public class CustomClass {
-  class custom{
-   
+  class custom {
+
   }
- public static void main(String[] args)
-  {
+
+  public static void main(String[] args) {
     System.out.println("This is my custom class");
   }
 }
