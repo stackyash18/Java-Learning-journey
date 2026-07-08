@@ -6,7 +6,7 @@ abstract class Payment {
         this.transactionId = transactionId;
     }
 
-    //Implemented Abstract method  
+    // Implemented Abstract method
     abstract void pay(double amount);
 
     // Common method shared by all payments
@@ -25,7 +25,7 @@ class UPIPayment extends Payment {
 
     public UPIPayment(String transactionId, String upiId) {
         super(transactionId);
-        this.upiId = upiId; 
+        this.upiId = upiId;
     }
 
     @Override
@@ -52,19 +52,17 @@ class CreditCardPayment extends Payment {
     }
 }
 
-//Net-Banking Payment
-class NetBankingPayment extends Payment
-{
+// Net-Banking Payment
+class NetBankingPayment extends Payment {
     private String userId;
 
-    public NetBankingPayment(String transactionId, String userId)
-    {
+    public NetBankingPayment(String transactionId, String userId) {
         super(transactionId);
         this.userId = userId;
     }
+
     @Override
-    void pay(double amount)
-    {
+    void pay(double amount) {
         System.out.println("Processing Net Banking Payment using Using UserID: " + userId);
         generateReceipt(amount);
     }
