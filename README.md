@@ -1,36 +1,160 @@
-# Java DSA Journey
+# ☕ Java Learning Journey
 
-This repository contains my structured practice of Data Structures and Algorithms using Java.
+Welcome to my **Java Learning Journey** repository!
 
-## Purpose
-I am consistently improving my problem-solving skills and building a strong foundation for technical interviews and software development in My First Year.
+This repository documents my progress as I learn **Core Java** from scratch. It contains concepts, practice programs, mini projects, and notes that help me build a strong foundation in Java programming.
 
-## Topics Covered
-- Arrays
-- Strings
+---
+
+## 📖 About
+
+I am **Yash Tomar**, a BCA student passionate about software development and problem-solving.
+
+This repository serves as my personal Java learning journal where I regularly upload programs, assignments, and projects while mastering Java fundamentals.
+
+---
+
+## 🎯 Purpose
+
+- Learn Java from beginner to advanced level
+- Build a strong programming foundation
+- Master Object-Oriented Programming (OOP)
+- Improve coding logic
+- Prepare for software development and technical interviews
+
+---
+
+## 📚 Topics Covered
+
+### Java Basics
+- Variables
+- Data Types
+- Operators
+- Input & Output
+- Type Casting
+
+### Control Statements
+- if-else
+- switch
+- Loops
+- Pattern Programs
+
+### Methods
+- Functions
+- Method Overloading
 - Recursion
-- Sorting Algorithms
-- Basic OOP Concepts
 
-## Structure
-Problems are organized topic-wise for better clarity and revision.
+### Object-Oriented Programming
+- Classes & Objects
+- Constructors
+- Inheritance
+- Polymorphism
+- Abstraction
+- Encapsulation
+- Interfaces
 
-## Progress
-I regularly update this repository as I learn and solve new problems.
+### Arrays
+- One-Dimensional Arrays
+- Multi-Dimensional Arrays
 
-## Goal
-To develop strong logical thinking and become proficient in Data Structures and Algorithms.
+### Strings
+- String
+- StringBuilder
+- StringBuffer
 
-## Note
-This is an evolving repository. Some topics and implementations are still being refined and expanded over time.
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/stackyash18/Java-DSA/tree/master/0001-two-sum) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/stackyash18/Java-DSA/tree/master/0001-two-sum) |
-<!---LeetCode Topics End-->
+### Exception Handling
+- try-catch
+- throw
+- throws
+- finally
+
+### Collections Framework
+- ArrayList
+- LinkedList
+- HashMap
+- HashSet
+- Queue
+- Stack
+
+### File Handling
+
+### Multithreading
+
+### Java 8 Features
+- Lambda Expressions
+- Stream API
+- Functional Interfaces
+
+### Mini Projects
+
+---
+
+## 📂 Repository Structure
+
+```
+Java-Learning-Journey
+│
+├── Basics
+├── Operators
+├── Conditionals
+├── Loops
+├── Methods
+├── Arrays
+├── Strings
+├── OOP
+├── Exception Handling
+├── Collections
+├── File Handling
+├── Multithreading
+├── Java 8
+├── Mini Projects
+└── README.md
+```
+
+---
+
+## 🚀 Learning Progress
+
+I update this repository regularly as I complete new Java topics and projects.
+
+✔ Concept Learning
+
+✔ Practice Programs
+
+✔ Assignments
+
+✔ Mini Projects
+
+✔ Notes
+
+---
+
+## 🛠 Tech Stack
+
+- Java
+- IntelliJ IDEA / VS Code
+- Git
+- GitHub
+
+---
+
+## 🎯 Goal
+
+To become proficient in Java programming and build a strong foundation for backend development, Data Structures & Algorithms, and software engineering.
+
+---
+
+## 📌 Note
+
+This repository is continuously updated as I progress through my Java learning journey.
+
+---
+
+## 🤝 Connect with Me
+
+- LinkedIn: https://linkedin.com/in/your-link
+- GitHub: https://github.com/stackyash18
+
+---
+
+⭐ If you find this repository useful, feel free to star it.
