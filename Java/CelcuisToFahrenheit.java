@@ -1,4 +1,4 @@
-public class CelcuisToFahreheit {
+public class CelcuisToFahrenheit {
   static double convertToFahrenheit(double celsius) {
     return (celsius * 9 / 5) + 32;
   }
