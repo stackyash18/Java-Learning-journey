@@ -1,7 +1,7 @@
 public class FahrenheitToCelcius {
    public static double convertToCelcius(double fahrenheit)
   {
-    return((fahrenheit-32)*(5/9));
+    return((fahrenheit -32 )* 5/9);
   }
   public static void main(String args[])
   {
