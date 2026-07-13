@@ -9,11 +9,13 @@ public class CollegeManangement {
 
     public void enrollStudent(String studentName)
     {
+      System.out.println(studentName + " Has been enrolled in the course " + courseName);
       maxCapicity--;
     }
 
     public void unenrollStudent(String studentName)
     {
+      System.out.println(studentName + " Has been unenrolled from the course " + courseName);
       maxCapicity++;
     }
 
