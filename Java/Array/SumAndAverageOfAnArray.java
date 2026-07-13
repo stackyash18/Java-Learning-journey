@@ -16,9 +16,8 @@ class SumAndAverageOfAnArray {
   public static long sum(int[] arr) {
     long sum = 0;
     int i = 0;
-    while(i<arr.length)
-    {
-      sum+=arr[i];
+    while (i < arr.length) {
+      sum += arr[i];
       i++;
     }
     return sum;
@@ -26,7 +25,7 @@ class SumAndAverageOfAnArray {
 
   public static int avg(int[] arr) {
     long sum = sum(arr);
-    int avg = (int)(sum/arr.length);
+    int avg = (int) (sum / arr.length);
     return avg;
   }
 }
