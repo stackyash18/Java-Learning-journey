@@ -13,5 +13,7 @@ public class MinimumFromTwoNumber {
 
     int minNumber = a<b?a:b;
     System.out.println(minNumber + " is the smaller number.");
+
+    input.close();
   }
 }
