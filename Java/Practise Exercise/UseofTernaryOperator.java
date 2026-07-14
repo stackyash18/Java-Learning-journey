@@ -8,7 +8,7 @@ public class UseofTernaryOperator {
     int num = input.nextInt();
     String grade = score(num);
     System.out.println(grade);
-
+    input.close();
   }
   public static String score(int num)
   {
