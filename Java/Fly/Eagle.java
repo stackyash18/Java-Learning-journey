@@ -2,9 +2,9 @@ package Fly;
 
 public class Eagle  extends Bird{
 
-  public Eagle(String breed)
+  public Eagle()
   {
-    super(breed);
+    super("Eagle");
   }
   @Override 
   public void fly()
