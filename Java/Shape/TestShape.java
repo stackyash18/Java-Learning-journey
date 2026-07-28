@@ -6,7 +6,8 @@ public class TestShape {
     Circle circ = new Circle(52.12);
     Square sq = new Square(10.25);
 
-    System.out.println("Area of a Circle is: " + circ.calculateArea());
-    System.out.println("Area of a Square is: " + sq.calculateArea());
+    System.out.printf("Area of a Circle is: %5.2f", circ.calculateArea());
+    System.out.println();
+    System.out.printf("Area of a Square is: %5.2f", sq.calculateArea());
   }
 }
