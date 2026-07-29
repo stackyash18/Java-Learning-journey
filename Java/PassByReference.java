@@ -18,10 +18,10 @@ public class PassByReference {
     
   }
 
-  public static void move(Point first)
+  public static void move(Point p)
   {
-    first.x++;
-    first.y++;
+    p.x++;
+    p.y++;
   }
   public static void main(String args[])
   {
