@@ -1,23 +1,28 @@
-class Parent {
-
-    public void meth2() {
-        System.out.println("I am method 2 of parent class");
+public class MethodOverriding {
+ static class Employee
+  {
+    void employees()
+    {
+      System.out.println("These Employees belongs to the organization.");
     }
-}
+  }
 
-class Child extends Parent {
-
+ static class TechDepartment extends Employee
+  {
     @Override
-    public void meth2() {
-        System.out.println("I am method 2 of child class");
+    void employees()
+    {
+      System.out.println("These Employees are of tech department.");
     }
-}
+  }
 
-class MethodOverriding {
+  public static void main(String args[])
+  {
+    Employee emp = new Employee();
+    emp.employees();
 
-    public static void main(String[] args) {
+    TechDepartment techEmp = new TechDepartment();
+    techEmp.employees();
 
-        Parent obj = new Child();
-        obj.meth2();
-    }
+  }
 }
