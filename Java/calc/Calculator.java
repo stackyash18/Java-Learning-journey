@@ -8,6 +8,16 @@ class SimpleCalculator {
     System.out.println("Your Result is: " + (a + b));
   }
 
+  public void addNum(int a, int b, int c)
+  {
+    System.out.println("Your result is: " + (a + b + c));
+  }
+
+  public void addNum(double a, double b)
+  {
+    System.out.println("Your result is: " + (a + b));
+  }
+
   public void minusNum(int a, int b) {
     System.out.println("Your Result is: " + (a - b));
   }
