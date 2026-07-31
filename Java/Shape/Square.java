@@ -1,4 +1,4 @@
-package Shape;
+package shape;
 
 public class Square  extends Shape{
   private final double sideInCms;

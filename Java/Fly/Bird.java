@@ -1,4 +1,4 @@
-package Fly;
+package fly;
 
 public abstract class Bird implements Flyable {
   private final String breed;

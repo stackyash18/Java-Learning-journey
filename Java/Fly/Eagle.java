@@ -1,4 +1,4 @@
-package Fly;
+package fly;
 
 public class Eagle  extends Bird{
 

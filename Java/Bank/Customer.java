@@ -1,4 +1,4 @@
-package Bank;
+package bank;
 
 public class Customer {
   public static void main(String args[])

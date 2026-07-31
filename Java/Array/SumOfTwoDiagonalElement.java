@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class SumOfTwoDiagonalElement {
   public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class SumAndAverage {
   public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package Organization;
+package organization;
 
 public class EmployeeDetails {
   public static void main(String args[])

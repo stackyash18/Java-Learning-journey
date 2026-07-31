@@ -1,4 +1,4 @@
-package Fly;
+package fly;
 
 public interface Flyable {
   void fly();
