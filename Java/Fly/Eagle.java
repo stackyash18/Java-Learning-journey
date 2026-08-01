@@ -1,15 +1,14 @@
 package fly;
 
-public class Eagle  extends Bird{
+public class Eagle extends Bird {
 
-  public Eagle()
-  {
+  public Eagle() {
     super("Eagle");
   }
-  @Override 
-  public void fly()
-  {
+
+  @Override
+  public void fly() {
     System.out.println("Eagle is flying.");
   }
-  
+
 }
