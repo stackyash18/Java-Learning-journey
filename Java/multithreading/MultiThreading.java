@@ -4,15 +4,16 @@ public class MultiThreading {
 
     long startTime = System.currentTimeMillis();
 
+    System.out.println("\nStarting First Thread");
     FirstTask t1 = new FirstTask();
+    System.out.println("\nStarting Second Thread");
     SecondTask t2 = new SecondTask();
+    System.out.println("\nStarting Third Thread");
     ThirdTask t3 = new ThirdTask();
-    FourthTask t4 = new FourthTask();
 
     t1.start();
     t2.start();
     t3.start();
-    t4.start();
     long endTime = System.currentTimeMillis();
 
     System.out.printf("  time taken: %d", endTime-startTime);
