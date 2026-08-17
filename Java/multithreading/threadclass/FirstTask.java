@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.threadclass;
 public class FirstTask extends Thread {
   @Override
   public void run()

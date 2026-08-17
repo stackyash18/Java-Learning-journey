@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.threadclass;
 
 public class ThirdTask extends Thread {
   @Override

@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.threadclass;
 
 public class FourthTask extends Thread{
   @Override
