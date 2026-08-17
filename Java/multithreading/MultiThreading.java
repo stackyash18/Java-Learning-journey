@@ -16,6 +16,6 @@ public class MultiThreading {
     t3.start();
     long endTime = System.currentTimeMillis();
 
-    System.out.printf("  time taken: %d", endTime-startTime);
+    System.out.printf("                 %s  time taken: %d", Thread.currentThread().getName(), endTime-startTime);
   }
 }
