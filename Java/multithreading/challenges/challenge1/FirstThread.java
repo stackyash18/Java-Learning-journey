@@ -4,7 +4,9 @@ public class FirstThread extends Thread {
   @Override
   public void run()
   {
-    System.out.println("Hello from thread 1");
+    for (int i = 0; i < 10; i++) {   
+      System.out.println( (i+1)  + " Hello from thread 1");
+    }
   }
   
 }
