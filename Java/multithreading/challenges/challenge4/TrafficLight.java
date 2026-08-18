@@ -2,27 +2,26 @@ package multithreading.challenges.challenge4;
 
 
 public class TrafficLight extends Thread{
-  private final String status;
+  private final TrafficColor color;
 
-  public TrafficLight(String status)
+  public TrafficLight(TrafficColor color)
   {
-    this.status = status;
+    this.color = color;
   }
 
   @Override
   public void run()
   {
-    System.out.printf("%s Thread Starting-%d\n",
-                      Thread.currentThread().getName()
-                      , status);
+    System.out.println();
+    System.out.printf("%s active", color);
+    try {
+      Thread.sleep(color.getOnTimeInMills());
+    } catch (InterruptedException e) {
+      throw new RuntimeException(e);
+    }
 
-                      try {
-                        Thread.sleep(5000);
-                      } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                      }
-    System.out.printf("%s Thread Ended-%d\n",
-                      Thread.currentThread().getName()
-                      , status);
+    System.out.println();
+    System.out.printf("%s  Inactive\n", color);
   }
+
 }
