@@ -8,7 +8,7 @@ public class PrintTask implements Runnable {
     for(int i=1; i<=100; i++)
     { 
       try {
-        Thread.sleep(50);
+        Thread.sleep(100);
       } catch (InterruptedException e) {
         throw new RuntimeException(e);
       }
